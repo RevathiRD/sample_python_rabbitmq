@@ -1,7 +1,13 @@
 language: python
-
+build_image: drydock/u14pytpls:tip
 python:
   - 2.7
+  - 2.6
+  - 3.2
+  - 3.3
+  - 3.4
+  - 3.5
+  - pypy
 
 services:
   - rabbitmq
